@@ -106,7 +106,7 @@ curl -XGET 'https://:your_server_url/keyboard'
 
 - *예제*
 
-    ```
+```
 {
     "type" : "buttons",
     "buttons" : ["선택 1", "선택 2", "선택 3"]
@@ -219,13 +219,13 @@ curl -XPOST 'https://your_server_url/message' -d '{
 - *예제*
   - *친구 추가*
 
-  ```
+```
 curl -XPOST 'https://:your_server_url/friend' -d '{"user_key" : "HASHED_USER_KEY" }'
 ```
 
   - *친구 삭제*
 
-  ```
+```
 curl -XDELETE 'https://:your_server_url/friend/:user_key'
 ```
 
